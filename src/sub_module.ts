@@ -1,7 +1,16 @@
 export const subModule = () => {
-  logger();
+  const logger = new Logger("subModule");
+  logger.log("subModule");
 };
 
-function logger() {
-  console.log("logger");
+class Logger {
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+
+  log(message: string) {
+    console.log(`${this.name}: ${message}`);
+  }
 }
