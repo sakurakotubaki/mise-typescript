@@ -1,3 +1,5 @@
+import { subModule } from "./sub_module.ts";
+
 class User {
   name: string;
 
@@ -6,9 +8,10 @@ class User {
   }
 
   greet() {
-    console.log(`Hello, ${this.name}!`);
+    console.log(`Hi, ${this.name}!`);
   }
 }
 
 const user = new User("JH");
 user.greet();
+subModule();
