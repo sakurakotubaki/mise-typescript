@@ -6,7 +6,7 @@ class User {
   }
 
   greet() {
-    console.log(`Hello, ${this.name}!`);
+    console.log(`Hi, ${this.name}!`);
   }
 }
 
