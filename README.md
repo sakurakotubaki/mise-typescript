@@ -1,4 +1,5 @@
 # Mise + Node.js + pnpm + TypeScript 環境構築手順書
+https git clone
 
 Mise で Node.js / PNPM のバージョンを固定し、TypeScript を **トランスパイルせずに** `node` で直接実行する最小プロジェクトです。
 
